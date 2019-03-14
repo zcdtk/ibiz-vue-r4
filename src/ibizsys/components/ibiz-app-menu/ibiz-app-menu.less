@@ -1,0 +1,65 @@
+/***    BRGIN:菜单样式    ***/
+.ibiz-app-menu {
+    overflow: auto;
+    height: calc(100% - 58px);
+    > .el-menu {
+        border-right: 0;
+        .el-submenu__title i, .el-menu-item i {
+            font-size: 16px;
+            width: 16px;
+        }
+        .el-menu-item, .el-submenu__title {
+            height: 36px;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .el-menu-item, .el-submenu, .el-menu {
+            border-top: 1px solid #fff;
+        }
+        > .el-menu-item, > .el-submenu > .el-submenu__title {
+            height: 40px;
+            line-height: 36px;
+            border-left: 4px solid transparent;
+            padding-left: 16px !important;
+        }
+        .ibiz-menu-icon {
+            margin-right: 4px;
+        }
+        > .el-submenu {
+            > .el-menu {
+                > .el-menu-item, > .el-submenu > .el-submenu__title {
+                    padding-left: 44px !important;
+                }
+                > .el-submenu {
+                    > .el-menu {
+                        > .el-menu-item, > .el-submenu > .el-submenu__title {
+                            padding-left: 68px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .active-icon {
+            font-size: 40px !important;
+            position: absolute;
+            right: 0;
+            line-height: 42px;
+            color: #fff !important;
+            display: none;
+            width: 24px !important;
+            overflow: hidden;
+        }
+    }
+}
+.ibiz-popper-menu {
+    .el-menu-item, .el-submenu__title {
+        height: 36px;
+        font-size: 16px;
+        line-height: 36px;
+    }
+    > .el-menu-item, > .el-submenu > .el-submenu__title {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+/***    END:菜单样式   ***/

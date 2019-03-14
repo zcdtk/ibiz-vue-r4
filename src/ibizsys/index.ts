@@ -5,7 +5,6 @@ export { IBizAppMenu } from './widget/ibiz-app-menu';
 export { IBizDataGrid } from './widget/ibiz-data-grid';
 export { IBizToolbar } from './widget/ibiz-toolbar';
 // 表单项
-// 组件
 // 工具
 export { IBizApp } from './util/ibiz-app';
 export { IBizNotification } from './util/ibiz-notification';

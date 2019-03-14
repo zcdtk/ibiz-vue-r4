@@ -13,6 +13,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(iView);
 Vue.use(ElementUI);
 
+import IBizAppMenu from './ibizsys/components/ibiz-app-menu/ibiz-app-menu.vue';
+Vue.component('ibiz-app-menu', IBizAppMenu);
+
 new Vue({
   router,
   store,
