@@ -16,9 +16,10 @@
       "jest"
     ],
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": [ "src/*" ],
+      "ibizsys": ["src/ibizsys"],
+      "@environments": ["src/environments"],
+      "@environments/*": ["src/environments/*"],
     },
     "lib": [
       "esnext",

@@ -2,6 +2,7 @@ import { IBizUtil } from './ibiz-util';
 import { IBizApp } from './ibiz-app';
 import { Subject } from 'rxjs';
 import axios from 'axios';
+import { IBizEnvironment } from '@/environments/ibiz-environment';
 
 /**
  * IBizHttp net 对象
